@@ -1,0 +1,33 @@
+/* Global styles for the app */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+body.cart-page {
+  background-color: rgb(239, 237, 237);
+  padding-bottom: 122px;
+}
+
+@media (min-width: 768px) {
+  body.cart-page {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+  }
+}
