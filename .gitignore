@@ -34,9 +34,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Optional: Testing coverage
 coverage/
 
-# Optional: Production build files (React)
 **/build/
 **/dist/
